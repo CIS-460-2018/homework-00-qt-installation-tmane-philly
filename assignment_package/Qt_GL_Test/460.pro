@@ -6,6 +6,9 @@ CONFIG += console
 CONFIG += c++11
 CONFIG += warn_on
 CONFIG += debug
+LIBS += -lopengl32
+LIBS += -lglut32
+LIBS += -lglu32
 
 INCLUDEPATH += include
 
